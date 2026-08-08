@@ -1,0 +1,41 @@
+{
+  "$schema": "https://tree-sitter.github.io/tree-sitter/assets/schemas/config.schema.json",
+  "grammars": [
+    {
+      "name": "lsl",
+      "camelcase": "Lsl",
+      "title": "LSL",
+      "scope": "source.lsl",
+      "file-types": [
+        "lsl"
+      ],
+      "injection-regex": "^lsl$",
+      "class-name": "TreeSitterLsl"
+    }
+  ],
+  "metadata": {
+    "version": "0.1.0",
+    "license": "MIT",
+    "description": "Linden Scripting Language",
+    "authors": [
+      {
+        "name": "Tokeli",
+        "url": ""
+      }
+    ],
+    "links": {
+      "repository": "https://github.com/tokeli/tree-sitter-lsl2",
+      "funding": ""
+    }
+  },
+  "bindings": {
+    "c": true,
+    "go": true,
+    "java": false,
+    "node": true,
+    "python": true,
+    "rust": true,
+    "swift": true,
+    "zig": false
+  }
+}
